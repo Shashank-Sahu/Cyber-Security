@@ -1,0 +1,157 @@
+/* TAGS */
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 3rem;
+}
+
+footer {
+    background-color: rgb(53, 58, 63);
+    padding: 1% 30%;
+    text-align: center;
+}
+
+/* CLASSES & IDs*/
+
+.navbar {
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    position: fixed;
+    width: 100%;
+    z-index: 22;
+    transition: 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: rgb(14, 15, 17);
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navbar-nav li {
+    margin-right: 30px;
+}
+
+.intro {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 80vh;
+}
+
+.aiden-button {
+    font-size: 2rem;
+}
+
+.about-section {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.section {
+    margin: 50px auto;
+    padding: 10% 0;
+}
+
+.about {
+    padding: 1% 5%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.about-img {
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://leaf-it.com/wp-content/uploads/2020/02/markus-spiske-uPXs5Vx5bIg-unsplash-2048x1365.jpg");
+    transition: background-image 0.5s;
+    border-radius: 10px;
+}
+
+.about-img:hover {
+    background-image: url("https://leaf-it.com/wp-content/uploads/2020/02/nik-macmillan-YXemfQiPR_E-unsplash-2048x1365.jpg");
+}
+
+.box-shadow {
+    bottom: 99.9%;
+    position: absolute;
+    background: linear-gradient(to top, black, transparent);
+    height: 300px;
+    width: 100%;
+    z-index: 20;
+}
+
+.intro-content {
+    position: absolute;
+    top: calc(30%);
+    text-align: center;
+}
+
+.intro-head {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#videoBackground {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: -20;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bi {
+    margin: 5px;
+    color: white;
+}
+
+
+/* MEDIA */
+
+@media(max-width:993px) {
+
+    #videoBackground {
+        width: 2000px;
+    }
+
+    .intro {
+        height: 100vh;
+    }
+
+    .toleft {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .box2 {
+        order: 2;
+    }
+
+    .box1 {
+        order: 1;
+    }
+}
