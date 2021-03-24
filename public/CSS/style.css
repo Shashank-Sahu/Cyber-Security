@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Lobster&family=Train+One&family=Ubuntu&display=swap');
 
-/* font-family: 'Kiwi Maru', serif;
+/* 
+font-family: 'Kiwi Maru', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Train One', cursive;
-font-family: 'Ubuntu', sans-serif; */
+font-family: 'Ubuntu', sans-serif; 
+*/
 
 /* TAGS */
 html {
@@ -40,10 +42,6 @@ footer {
     transition: 0.5s;
 }
 
-.container-fluid {
-    overflow-x: hidden;
-}
-
 .navbar-scrolled {
     background-color: rgb(14, 15, 17);
     transition: 1s;
@@ -71,6 +69,17 @@ footer {
     font-family: 'Kiwi Maru', serif;
 }
 
+.intro-head {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.intro-content {
+    position: absolute;
+    top: calc(30%);
+    text-align: center;
+}
+
 .aiden-button {
     font-size: 3rem;
     font-family: 'Lobster', cursive;
@@ -82,9 +91,18 @@ footer {
     background-color: rgb(0, 0, 0);
 }
 
+.about-section .container-fluid {
+    overflow-x: hidden;
+}
+
 .section {
     margin: 50px auto;
     padding: 10% 0;
+}
+
+.section li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about {
@@ -99,33 +117,41 @@ footer {
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://leaf-it.com/wp-content/uploads/2020/02/markus-spiske-uPXs5Vx5bIg-unsplash-2048x1365.jpg");
     transition: background-image 0.5s;
     border-radius: 10px;
 }
 
-.about-img:hover {
-    background-image: url("https://leaf-it.com/wp-content/uploads/2020/02/nik-macmillan-YXemfQiPR_E-unsplash-2048x1365.jpg");
+.img1 {
+    background-image: url("https://s7d2.scene7.com/is/image/honeywell/sps-ppr-blog-not-all-security-updates-are-equal:1-1-square?wid=600&hei=600");
+}
+
+.img1:hover {
+    background-image: url("https://www.sagacent.com/wp-content/uploads/2018/08/sagacen-common-cyber-attack.jpg");
+}
+
+.img2 {
+    background-image: url("https://st3.depositphotos.com/8950810/17657/v/600/depositphotos_176577870-stock-illustration-cute-smiling-funny-robot-chat.jpg");
+}
+
+.img2:hover {
+    background-image: url("https://www.globtierinfotech.com/wp-content/uploads/2021/01/sample-chatbot-demo-500x500.png");
+}
+
+.img3 {
+    background-image: url("https://www.shareaholic.com/blog/wp-content/uploads/2013/01/7702900836_0106e4e49a_c.jpg");
+}
+
+.img3:hover {
+    background-image: url("https://www.cereiv.com/wp-content/uploads/2019/06/COMPLIANCE_CYBER_SECURITY1.jpg");
 }
 
 .box-shadow {
     bottom: 99.9%;
     position: absolute;
     background: linear-gradient(to top, black, transparent);
-    height: 300px;
+    height: 200px;
     width: 100%;
     z-index: 20;
-}
-
-.intro-content {
-    position: absolute;
-    top: calc(30%);
-    text-align: center;
-}
-
-.intro-head {
-    font-size: 4rem;
-    text-align: center;
 }
 
 #videoBackground {
