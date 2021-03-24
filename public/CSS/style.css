@@ -157,6 +157,11 @@ footer {
 
     .intro {
         height: 100vh;
+        font-size: 1.5rem;
+    }
+
+    .intro-content {
+        top: calc(20%);
     }
 
     .toleft {
@@ -170,5 +175,10 @@ footer {
 
     .box1 {
         order: 1;
+    }
+
+    .about-img {
+        height: 50vh;
+        width: 100%;
     }
 }
