@@ -1,0 +1,56 @@
+*{
+    background-color: #242B2E;
+}
+.img{
+    width: 200px;
+}
+.container{
+    width: 400px !important;
+    height: 650px;
+    
+    border-radius: 10px;
+    transition: all 0.3s ease-out ;
+    transform: scaleY(0);
+}
+.container.active{
+    transform: scaleY(1);
+    
+}
+.chatbot{
+    margin-left: 35%;
+    margin-top: -4rem;
+}
+.icon{
+    
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.hidden{
+    display: none !important;
+}
+.conv-form-wrapper textarea{
+    background-color: #CAD5E2 !important; 
+    overflow: hidden;
+    resize: none;
+   
+}
+.options{
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px
+}
+#convForm{
+    margin: 0% !important;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.submit{
+    float: right !important;
+    margin-top: -42px !important;
+}
