@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat bot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./jquery.convform.css">
+    <script src="./jquery.convform.js"></script>
+    <script src="./jquery.convform.min.js"></script>
+    <link rel="icon" type="image/png" href="./images/image-removebg-preview (2).png"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="img" src="./images/image-removebg-preview (1).png" alt="">
+        </div>
+    </header> 
+    <div class="chatbot">
+        <img class="icon" src="/images/chat.png" alt="">
+            <div class="container">
+                <div class="conv-form-wrapper">
+                    <form action="" method="GET" class="hidden" >
+                        <select name="category" data-conv-question="Hey there, friend! I’m Aiden, some people also call me a chatbot. I am designed to help you throughout the site with your support needs if you face any problem.">
+                            <option value="Complaint">Complaint</option>
+                            <option value="unlawful">what is unlawful in cyber-security</option>
+                            <option value="courses">Cyber-security courses</option>
+                        </select>
+                        <div data-conv-fork="category">
+                            <div data-conv-case="Complaint">
+                                <input type="text" data-conv-question="welcome to the complaint section of the site. Here, you can file a complaint against cyber-crime/s." data-no-answer="true">
+                                <select name="text" data-conv-question="Choose how you want to file the complaint:-<br>">
+                                    <option value="op1">report online</option><br>
+                                    <option value="op2">Helpline No.</option>
+                                </select>                               
+                            </div>
+                            <div data-conv-case="unlawful">
+                                <select name="text" data-conv-question="In Simple way we can say that cyber crime is unlawful acts wherein the computer is either a tool or a target or both. Cyber crimes can involve criminal activities that are traditional in nature, such as theft, fraud, forgery, defamation and mischief, all of which are subject to the Indian Penal Code.<br> <br>
+                                •	Cyber laws that everyone using the internet must be aware of:-<br>
+                                1)	One can’t tamper with computer source documents.<br>
+                                2)	One can’t use password of another person.<br>
+                                3)	One can’t cheat using computer resource.<br>
+                                4)	One can’t  publish private images of other person.<br>
+                                5)	One can’t promote acts of cyberterrorism.<br>
+                                6)	One can’t publish child porn or predating children online.<br>
+                                7)	One can’t steal data at corporate levels. <br>
+                                <br>
+                                If you have any further Query you can visit the Official site of Ministry Of Home Affairs below:-<br>">
+                                    <option value="yes1">yes</option>
+                                    <option value="no1">no</option>
+                                </select>
+                            </div>
+                            <div data-conv-case="courses">
+                                <select name="thought" data-conv-question="If you want to buy a course that provides you with Information on    cyber-security then you can visit the site below:- ">
+                                    <option value="yes">yes</option>
+                                    <option value="no">no</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>
