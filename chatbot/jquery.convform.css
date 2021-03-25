@@ -179,8 +179,15 @@ div.conv-form-wrapper:before {
     div.conv-form-wrapper div.wrapper-messages, div.conv-form-wrapper div#messages {
         max-height: 71vh;
     }
+    .chatbot{
+       width: 400px; 
+    }
 }
-
+@media (min-width:1281px) { 
+    .chatbot{
+        margin-left: 35%;
+    }
+ }
 div.conv-form-wrapper div.wrapper-messages::-webkit-scrollbar, div#feed ul::-webkit-scrollbar, div.conv-form-wrapper div.options::-webkit-scrollbar {
     width: 0px;
     height: 0px;
