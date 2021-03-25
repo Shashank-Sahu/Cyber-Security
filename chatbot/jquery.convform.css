@@ -151,6 +151,9 @@ div.conv-form-wrapper div#messages:after {
     clear: both;
     
 }
+#userInput{
+    color: #06b79a !important;
+}
 div.conv-form-wrapper {
     position: relative;
 }
