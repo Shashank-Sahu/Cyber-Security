@@ -26,6 +26,12 @@ h2 {
     font-family: 'Lobster', cursive;
 }
 
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 footer {
     background-color: rgb(53, 58, 63);
     padding: 1% 30%;
@@ -154,6 +160,15 @@ footer {
     z-index: 20;
 }
 
+.box-shadow2 {
+    top: 99.9%;
+    position: absolute;
+    background: linear-gradient(to bottom, black, transparent);
+    height: 100px;
+    width: 100%;
+    z-index: 20;
+}
+
 #videoBackground {
     position: fixed;
     left: 0;
@@ -172,6 +187,34 @@ footer {
     color: white;
 }
 
+.information {
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    text-align: center;
+    padding-top: 5%;
+    background-attachment: fixed;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    background-color: rgb(54, 58, 62);
+    padding: 1% 1%;
+    margin: 20px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    box-shadow: -2px 5px 10px black;
+}
+
+.card:hover {
+    background-color: rgb(40, 51, 62);
+}
+
+.card img {
+    margin-top: 10px;
+}
 
 /* MEDIA */
 
