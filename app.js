@@ -11,9 +11,9 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
-// app.get("/askAiden", (req, res) => {
-//     res.sendFile(__dirname + "/chatbot/index.html");
-// }); //test
+app.get("/askAiden", (req, res) => {
+    res.render("chatbot");
+});
 
 app.listen(process.env.PORT || port, () => {
     console.log("Server Started at " + port);
