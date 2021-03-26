@@ -19,12 +19,12 @@
         </div>
     </header>
     <div class="chatbot">
-        <img class="icon" src="./images/chat.png" alt="">
+        <span class="tap-icon icon">Tap me</span> <br> <img class="icon" src="./images/chat.png" alt="">
         <div class="container">
             <div class="conv-form-wrapper">
                 <form action="" method="GET" class="hidden">
                     <select name="category"
-                        data-conv-question="Hey there, friend! I’m Aiden, some people also call me a chatbot. I am designed to help you throughout the site with your support needs if you face any problem.">
+                        data-conv-question="Hey there, friend! I’m Aiden. I am designed to help you throughout the site with your support needs if you face any problem.">
                         <option value="Complaint">Complaint</option>
                         <option value="help">Helpline in your area</option>
                         <option value="unlawful">what is unlawful in cyber-security</option>
@@ -33,14 +33,14 @@
                     <div data-conv-fork="category">
                         <div data-conv-case="Complaint">
                             <input type="text"
-                                data-conv-question="welcome to the complaint section of the site. Here, you can file a complaint against cyber-crime/s."
+                                data-conv-question="Welcome to the complaint section of the site. Here, you can file a complaint against cyber-crime/s."
                                 data-no-answer="true">
                             <select name="text" data-conv-question="Choose how you want to file the complaint:-<br>
                                     <br>
                                     Report Online through Cyber Crime Portal: <a href='https://cybercrime.gov.in/Webform/crmcondi.aspx' class='button'>Report online</a>
                                     <br>
-                                    Or you can call a Toll number for All-India: 155260 <br>
-                                    If for some reason both options doesn't work then you can get hel through State Helplines.
+                                    Or you can call a Toll number for All-India: <span class='bold'>155260</span> <br>
+                                    If for some reason both options doesn't work then you can get help through State Helplines.
                                     <a href='https://www.socialmediamatters.in/online-safety-hub/cyber-crime-cells-in-india' class='button'>Helpline numbers</a><br><br>
                                     If you have any further Query you can visit the Official site of Ministry Of Home Affairs :
                                     <a href='https://cybercrime.gov.in/Webform/Crime_NodalGrivanceList.aspx' class='button'>link</a>
@@ -71,7 +71,7 @@
                             </select>
                         </div>
                         <div data-conv-case="courses">
-                            <select name="thought" data-conv-question="If you want to buy a course that provides you with Information on    cyber-security then you can visit the site below:- <br>
+                            <select name="thought" data-conv-question="If you want to buy a course that provides you with Information on cyber-security then you can visit the site:
                                     <a href='https://cybersecurityindia.org/' class='button'>link</a>
                                     ">
                                 <option value="yes">done</option>
@@ -80,7 +80,7 @@
                         </div>
                         <div data-conv-case="help">
                             <input type="text" data-conv-question="In which state you live in ? " data-no-answer="true">
-                            <select name="state" data-conv-question="choose your state or region :-">
+                            <select name="state" data-conv-question="Choose your State or Region :">
                                 <option value="AP">Andhra Pradesh</option>
                                 <option value="CH">Chandigarh</option>
                                 <option value="DE">Delhi</option><br>

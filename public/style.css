@@ -1,39 +1,51 @@
-*{
+* {
     background-color: #242B2E;
 }
-.img{
+
+.img {
     width: 200px;
 }
-.container{
+
+.container {
     width: 400px !important;
     height: 650px;
-    
+
     border-radius: 10px;
-    transition: all 0.3s ease-out ;
+    transition: all 0.3s ease-out;
     transform: scaleY(0);
 }
-.container.active{
+
+.container.active {
     transform: scaleY(1);
-    
+
 }
 
-.icon{
-    
+.icon {
+
     width: 50px;
     height: 50px;
     cursor: pointer;
     z-index: 1000;
 }
-.hidden{
+
+.tap-icon {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
     display: none !important;
 }
-.conv-form-wrapper textarea{
-    background-color: #CAD5E2 !important; 
+
+.conv-form-wrapper textarea {
+    background-color: #CAD5E2 !important;
     overflow: hidden;
     resize: none;
-   
+
 }
-.options{
+
+.options {
     -webkit-border-bottom-right-radius: 15px;
     -webkit-border-bottom-left-radius: 15px;
     -moz-border-radius-bottomright: 15px;
@@ -41,19 +53,23 @@
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px
 }
-#convForm{
+
+#convForm {
     margin: 0% !important;
     width: 400px;
     border-radius: 15px;
 }
-.img2{
+
+.img2 {
     margin-top: -20rem;
-    
+
 }
-.submit{
+
+.submit {
     float: right !important;
     margin-top: -42px !important;
 }
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -64,4 +80,10 @@ a.button {
     border-radius: 5px;
     color: initial;
     color: white;
+}
+
+.bold {
+    font-weight: 800;
+    color: black;
+    background-color: white;
 }

@@ -46,6 +46,7 @@ footer {
     min-width: 100%;
     z-index: 22;
     transition: 0.5s;
+    font-size: 1.5rem;
 }
 
 .navbar-scrolled {
@@ -54,8 +55,14 @@ footer {
 }
 
 .navbar-brand {
-    font-size: 3rem;
+    font-size: 2.6rem;
     letter-spacing: 5px;
+}
+
+.brand-small {
+    display: block;
+    letter-spacing: 1px;
+    font-size: 0.6rem;
 }
 
 .navbar-nav {

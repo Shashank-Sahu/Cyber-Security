@@ -15,6 +15,4 @@ app.get("/askAiden", (req, res) => {
     res.render("chatbot");
 });
 
-app.listen(process.env.PORT || port, () => {
-    console.log("Server Started at " + port);
-});
+app.listen(process.env.PORT || port);
